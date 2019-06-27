@@ -1,0 +1,21 @@
+开发流程与编写接口文档
+
+           1. 分析需求
+           2. 编写代码
+           3. 编写单元测试
+           4. 自测
+           5. 编写接口文档
+           6. 提测代码
+
+
+
+图片存储服务---七牛云
+
+支付宝
+在linux系统中有openssl命令，用来生成秘钥的进入openssl，执行genrsa -out app_private_key.pem 2048命令
+生成完私钥后，执行rsa -in app_private_key.pem -pubout -out app_public_key.pem，对应根据私钥生成公钥
+
+部署
+nginx + gunicorn
+
+gunicorn -w 4 -b 0.0.0.0:8000 -D --access-logfile ./logs/gunicorn.log manage:app   在后台运行

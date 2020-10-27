@@ -10,7 +10,7 @@ chardet==3.0.4
 Click==7.0
 command-not-found==0.3
 configparser==3.7.4
-cryptography==2.1.4
+cryptography==3.2
 cupshelpers==1.0
 defer==1.0.6
 distro-info===0.18ubuntu0.18.04.1

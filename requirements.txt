@@ -69,7 +69,7 @@ pyxdg==0.25
 PyYAML==3.12
 qiniu==7.2.4
 redis==3.2.1
-reportlab==3.4.0
+reportlab==3.5.55
 requests==2.22.0
 requests-unixsocket==0.1.5
 SecretStorage==2.3.1
